@@ -1,0 +1,19 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: app-2
+
+  rabbitmq:
+    host: 10.33.1.55
+    port: 5672
+    username: root
+    password: 123456
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+
+version: 2211
